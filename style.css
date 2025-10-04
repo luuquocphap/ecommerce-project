@@ -1,0 +1,38 @@
+main {
+    background: brown;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+
+}
+main header{
+    background: aquamarine;
+    height: 50px;
+    text-align: center;
+}
+main nav {
+    height: 80px;
+    background: blue;
+    text-align: center;
+}
+main #content #left{
+    float: left;
+    min-height: 200px;
+    width: 200px;
+    text-align: center;
+    background: darkolivegreen;
+}
+main #content #right{
+    float: right;
+    min-height: 200px;
+    width: calc(100% - 200px);
+    text-align: center;
+    background: darkslateblue;
+}
+
+
+main footer {
+    height: 50px;
+    background: yellow;
+    text-align: center;
+}

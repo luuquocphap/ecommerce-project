@@ -1,5 +1,5 @@
 main {
-    background: brown;
+    background: red;
     width: 1200px;
     height: 600px;
     margin: auto;
@@ -22,13 +22,7 @@ main #content #left{
     text-align: center;
     background: darkolivegreen;
 }
-main #content #right{
-    float: right;
-    min-height: 200px;
-    width: calc(100% - 200px);
-    text-align: center;
-    background: darkslateblue;
-}
+
 
 
 main footer {
